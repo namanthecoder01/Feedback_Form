@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkProfile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="laptop">
+    <header id="navbar">
+        <img src="./metlife.jpg" alt="MetLife" class="img">
+    </header>
+    <div class="container">
+        <form action="/action.js">
+            <div>
+                <h1 class="heading">
+                    Intern Feedback Form
+                </h1>
+            </div>
+            <div>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="name">Applicant Name</label>
+                        <input type="text" placeholder="Enter Name">
+                    </li>   
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="id">Applicant ID</label>
+                        <input type="number" placeholder="Enter ID">
+                    </li>
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="mail">MetLife Email ID</label>
+                        <input type="text" placeholder="Enter Email ID">
+                    </li>
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="checkbox">Mark if Received</label>
+                    </li>
+                    <li class="sec">
+                        <label for="id1" class="list">
+                            <input type="checkbox" value="Welcome Kit" name="class" id="id1">Welcome Kit &nbsp;
+                        </label>
+                        <label for="id2">
+                            <input type="checkbox" value="Induction" name="class" id="id2">Induction &nbsp;
+                        </label>
+                        <label for="id3">
+                            <input type="checkbox" value="Manager" name="class" id="id3">Manager Allotted &nbsp;
+                        </label>
+                    </li>
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="duration">Internship Duration</label>
+                        <input type="number" placeholder="Enter Months">
+                    </li>
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="location">Internship Location</label>
+                        <select name="location" id="location">
+                            <option value="Noida">Noida</option>
+                            <option value="Jaipur">Jaipur</option>
+                            <option value="OutOfIndia">OutOfIndia</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="feedback">Feedback</label>
+                        <textarea name="feedback" id="feedback" rows="5" cols="50" placeholder="Give Feedback"></textarea>
+                    </li>
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="experience">Satisfied with Intern Experience</label>
+                    </li>
+                    <li>
+                        <label for="id11">
+                            <input type="radio" value="Yes" name="class" id="id11">Yes
+                        </label>
+                        <label for="id22">
+                            <input type="radio" value="No" name="class" id="id22">No
+                        </label>
+                    </li>
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="project">Project Undertaken</label>
+                        <input type="text" placeholder="Project Name" rows="1" cols="10">
+                    </li>
+                    <li>
+                        <label for="manager">Assigned Manager</label>
+                        <input type="text" placeholder="Assigned Under" rows="1" cols="10">
+                    </li>
+                    <li>
+                        <label for="details">Project Details</label>
+                        <textarea name="project_details" id="project_details" rows="5" cols="52" placeholder="Project Details"></textarea>
+                    </li>
+                </ul>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="rating">Rate Us</label>
+                        <select name="rating" id="rating">
+                            <option value="5">5</option> 
+                            <option value="4">4</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="submit">
+                    <li>
+                        <input type="submit">
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    
+    <footer>
+        <div class="footer">
+            Made with ❤️ by MetLife
+        </div>    
+    </footer>
+</body>
+</html>
